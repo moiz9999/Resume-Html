@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Browser Rendering Process Explained for Beginners</title>
+    <!-- SEO Tag -->
+    <meta name="description" content="Understand the browser rendering process including HTML parsing, DOM creation, CSS parsing, and page painting explained step by step.">
+    <meta name="robots" content="index, follow">
+    <meta name="author" content="Moiz Shaukh">
+    <!-- Social Tag -->
+    <meta property="og:title" content="How Browsers Render Web Pages">
+    <meta property="og:description" content="Learn how browsers load HTML, parse the DOM, process CSS and render web pages step by step.">
+    <meta property="og:image" content="https://example.com/images/browser-rendering.png">
+    <meta property="og:type" content="article">
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+<main>
+    <article>
+        <header>
+            <figure>
+                <img src="images/CRP.jpg" alt="Critical Rendering Path diagram">
+                <figcaption>Diagram showing the critical rendering path in browsers</figcaption>
+            </figure>
+            <h1>The Elements of Browsers Rendering</h1>
+            <p>This article explains how browsers parse HTML, CSS, and render web pages step by step.</p>
+        </header>
+        <section>
+            <p>
+                When a browser loads a web page, it first parses the HTML to build the Document Object Model (DOM), which represents the page’s structure. At the same time, CSS is processed to create the CSS Object Model (CSSOM), defining the styling of each element.
+            </p>
+
+            <p>
+                The DOM and CSSOM are combined to form the Render Tree, which determines how elements are visually displayed on the screen. The browser then calculates the layout, deciding the exact position and size of each element.
+            </p>
+
+            <p>
+                Finally, the browser paints pixels to display the content. JavaScript can modify the DOM dynamically, affecting rendering. Understanding these elements helps developers optimize performance, improve load times, and create smoother user experiences.
+            </p>
+            <button><a href="#" class="read-more">Read More</a></button>
+        </section>
+        <footer>
+            <p>Published on: <time datetime="2026-03-09"> March 9, 2026</time></p>
+           <p>© 2026 Moiz Shaikh.</p>
+        </footer>
+    </article>
+</main>
+</body>
+</html>

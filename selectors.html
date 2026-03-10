@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+    div {
+        background-color: red; 
+    }
+    .green {
+        background-color: green;
+    }
+    #yellow {
+        background-color: yellow;
+    }
+    main > h1 {
+        color: blue;
+    }
+    div p {
+        color: white;
+    }
+    main > article:first-of-type > p {
+        background-color: blueviolet;
+    }
+    section article:first-of-type p {
+        background-color: brown;
+    }
+    
+    </style>
+</head>
+<body>
+    <div>
+        <p>Hello I am a div</p>
+    </div>
+    <div class="green">
+        <p>I'm a second div</p>
+    </div>
+    <div id="yellow">
+        <p>I'm a third div</p>
+    </div>
+    <main>
+        <h1>Moiz shaikh</h1>
+        <article>
+            <h1>Laravel developer</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tenetur perferendis, ratione aliquid veniam in maiores aspernatur blanditiis ad, debitis tempora, explicabo est! Perferendis natus eveniet ex et ipsam voluptatum fugit.</p>
+        </article>
+        <article>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro iusto, reiciendis veritatis eum nihil est omnis nesciunt dolores. Quaerat nulla laudantium quibusdam in atque quod architecto nihil doloribus animi veniam.</p>
+        </article>
+        <section>
+            <h1>Blog Post</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae fuga excepturi nisi in earum repudiandae! Beatae mollitia optio delectus fugit.</p>
+            <article>
+                <h2>My Post</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, tempora!</p>
+            </article>
+            <article>
+                <h2>New Post</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta dolores perferendis nisi, ea enim ipsum?</p>
+            </article>
+        </section>
+        
+    </main>
+</body>
+</html>
